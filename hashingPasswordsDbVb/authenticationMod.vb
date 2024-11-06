@@ -34,6 +34,8 @@ Module authenticationMod
 
     Public Function connectDatabase()
 
+
+        ' Database connection string
         Dim connectionString As String = "Server=localhost; database=dbhash; User ID=root; Password=12Yellow34!"
 
         Return connectionString
